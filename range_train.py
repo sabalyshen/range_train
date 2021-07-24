@@ -21,5 +21,5 @@ import random
 for i in range(5): # 執行5次
 	r = random.randint(1, 100)
 	print(r)
-	print(i)
+	print(i) # 印出range(5)裡面所有東西[0, 1, 2, 3, 4]
 	print('這是第', i+1, '產生隨機數', r)
